@@ -23,7 +23,7 @@ module core(
     input wire i_wb_stall_data,
     input wire [31:0] i_wb_data// data from memory
 );
-// base reg part
+// base register part
 
 wire [31:0] rs1_orig, rs2_orig;
 wire [31:0] rs_1, rs_2;/// this is feeded to the forward logic as an out put from hjere so that we can remove data hazard
